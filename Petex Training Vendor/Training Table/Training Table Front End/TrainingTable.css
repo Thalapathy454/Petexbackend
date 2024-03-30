@@ -1,0 +1,76 @@
+
+.container {
+    margin-top: 20px;
+  }
+  
+  .title {
+    color: #333;
+  }
+  
+ .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  .custom-button {
+    background-color: #46a09b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.09s;
+
+  }
+  
+  .custom-button:hover {
+    background-color: #357d78;
+    transform: scale(1.09);
+    z-index: 2;
+  }
+  
+ 
+  .service-name {
+    font-weight: bold;
+    color: #0066cc;
+  }
+  
+  .service-cost input {
+    width: 70px;
+  }
+  
+  .service-type select {
+    width: 120px;
+  }
+  
+  .location input {
+    width: 150px;
+  }
+  
+  .action button {
+    margin-right: 5px;
+  }
+  .product-image {
+    max-width: 100px;
+    max-height: 100px;
+    margin-top: 10px;
+  }
+  
